@@ -1,0 +1,74 @@
+{
+  "Boton Ingreso": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-UserAction-userinfo"
+  },
+  "Cerrar Anuncio": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='dy-lb-close']"
+  },
+  "Registrate": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id='testId-cc-login-form']//a[contains(.,'Reg')]"
+  },
+  "Nombre": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-Input-firstName"
+  },
+  "Primer Apellido": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-Input-lastName"
+  },
+  "Tipo de Documento": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "(//button[@data-order='catalyst-orderBy']//i)[2]"
+  },
+  "Lista": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//li/button"
+  },
+  "Numero de Documento": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-Input-document"
+  },
+  "Celular": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-Input-phoneNumber"
+  },
+  "Correo": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id='testId-Input-email']|//*[@id='testId-cc-login-form-email-input']"
+  },
+  "Contrasena": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id='testId-Input-password']|//*[@id='testId-cc-login-form-password-input']"
+  },
+  "CheckBox Terminos y Condiciones": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-consent-TyC-BU_consentTemplateRegistroTyC_FAL_CO-input"
+  },
+  "CheckBox CMR Puntos": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-consent-TyC-ECO_consentTemplateRegistroCMRPuntosTyC_FAL_CO-input"
+  },
+  "Boton Registrarme": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-Button-submit"
+  },
+  "Mostrar Contrasena": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-cc-login-form-password-icon-button"
+  },
+  "Boton Ingresar": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-cc-login-form-submit"
+  },
+  "Nombre Usuario": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//*[@id='testId-UserAction-userinfo']//p[contains(@class,'FirstName')]"
+  },
+  "Alerta Error": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[contains(@class,'alert-module')]"
+  }
+}

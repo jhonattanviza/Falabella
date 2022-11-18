@@ -1,0 +1,114 @@
+{
+  "Barra Busqueda": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-SearchBar-Input"
+  },
+  "Boton Buscar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(@class,'SearchBar')]"
+  },
+  "Ordenar Por": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-Dropdown-desktop-button"
+  },
+  "Lista": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//li/button"
+},
+  "Spinner": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//div[contains(@class,'loader')]"
+},
+  "Cerrar Anuncio": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='dy-lb-close']"
+  },
+  "Boton Agregar a la Bolsa": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(.,'Agregar a la Bolsa')]"
+  },
+  "Titulo Modal": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@class='doc-click-overlay']//span[contains(@class,'label')]"
+  },
+  "Boton Cerrar Modal": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(.,'Close')]"
+  },
+  "Bolsa de Compras": {
+    "GetFieldBy": "id",
+    "ValueToFind": "testId-UserAction-basket"
+  },
+  "Bolsa con un Elemento": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@data-module-region='basket']//i[contains(.,'1')]|//li[@id='testId-UserAction-basket']//i[@data-count='1']"
+  },
+  "Bolsa Vacia": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//div[@data-module-region='basket']//i[contains(.,'0')]"
+  },
+  "Cantidad Productos": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//span[@class='count-number count notranslate']"
+  },
+  "Correo": {
+    "GetFieldBy": "id",
+    "ValueToFind": "emailAddress"
+  },
+  "Boton Continuar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(.,'Continuar')]"
+  },
+  "Boton Ir a Comprar": {
+    "GetFieldBy": "Xpath",
+    "ValueToFind": "//button[contains(.,'Ir a comprar')]"
+  },
+  "Departamento": {
+    "GetFieldBy": "id",
+    "ValueToFind": "region"
+  },
+  "Ciudad": {
+    "GetFieldBy": "id",
+    "ValueToFind": "ciudad"
+  },
+  "Barrio": {
+    "GetFieldBy": "id",
+    "ValueToFind": "comuna"
+  },
+  "Direccion": {
+    "GetFieldBy": "id",
+    "ValueToFind": "address"
+  },
+  "Torre": {
+    "GetFieldBy": "id",
+    "ValueToFind": "departmentNumber"
+  },
+  "Password": {
+    "GetFieldBy": "id",
+    "ValueToFind": "password"
+  },
+  "Boton Ingresar Direccion": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//button[contains(.,'Ingresar direcci')]"
+},
+  "Boton Inicia Sesion": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//button[contains(.,'INICIA')]"
+},
+  "Resultado Busqueda": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//div[@pod-layout='LIST']"
+},
+  "Eliminar Producto": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//a[contains(.,'Eliminar')]"
+},
+  "Menu Categorias": {
+  "GetFieldBy": "id",
+  "ValueToFind": "testId-HamburgerBtn-toggle"
+},
+  "Subcategoria": {
+  "GetFieldBy": "Xpath",
+  "ValueToFind": "//div[contains(@class,'Menu')]//a"
+}
+}
