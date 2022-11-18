@@ -50,9 +50,9 @@ Para visualizar los reportes, luego de ejecutar las pruebas se debe acceder a la
 
 ### Casos de pruebas y tags 🔩
 
-Para ejecutar todos los escenarios utilizar el tag **@todos**
+Para ejecutar todos los escenarios utilizar el tag **@Todos**
 
-Para ejecutar solo los escenarios de compra utilizar el tag **@compras**
+Para ejecutar solo los escenarios del catálogo utilizar el tag **@Compras**
 
 Para ejecutar solo los escenarios de registro y login utilizar el tag **@RegistroYLogin**
 
@@ -69,7 +69,8 @@ Para ejecutar solo los escenarios de registro y login utilizar el tag **@Registr
 * @BuscarPorTextoOrdenandoPorMenorPrecio - _Realizar la orden de un computador utilizando el cuadro de búsqueda y ordenando para seleccionar el de menor precio._
 - - -
 * @BuscarPorCategoriaYEliminarProductoDelaBolsa - _Realizar la orden de un producto de una categoría y eliminarlo de la Bolsa_
-
+- - -
+* @ConsultarCategoriasTecnologia - _Validar que se muestren correctamente todas las subcategorias de una categoria_
 
 ## Construido con 🛠️
 
